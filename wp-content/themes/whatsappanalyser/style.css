@@ -1,0 +1,101 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20-feb-2016, 14:35:37
+    Author     : Cas
+*/
+
+body 
+{
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+p
+{
+    line-height: 1.65em;
+}
+
+a:link,
+a:visited
+{
+    color: #006505
+}
+
+div.container
+{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding-left: 50px;
+    padding-right: 20px;
+}
+
+.site-header
+{
+    border-bottom: 2px solid #999;
+}
+
+.site-footer
+{
+    margin-top: 30px;
+    border-top: 2px solid #999;
+}
+
+
+article.post
+{
+    border-bottom: 2px dotted #bbbbbb;
+    text-decoration: none;
+}
+
+article.post:last-of-type
+{
+    border-bottom: none;
+}
+
+.site-nav ul 
+{
+    margin: 0;
+    padding: 0;
+}
+
+.site-nav ul:before, .site-nav ul:after { content: ""; display: table; }
+.site-nav ul:after { clear: both; }
+.site-nav ul { *zoom: 1; }
+
+.site-nav ul li 
+{
+    list-style: none;
+    float: left; 
+}
+
+.site-header nav ul li 
+{
+    margin-right: 5px;
+}
+
+.site-header nav ul li a:link,
+.site-header nav ul li a:visited
+{
+    display: block;
+    padding: 10px 18px;
+    border: 1px solid #BBB;
+    border-bottom: none;
+    text-decoration: none;
+}
+
+.site-header nav ul li a:hover 
+{
+    background-color: #BBB;
+}
+
+.site-header nav ul li.current-menu-item a:link,
+.site-header nav ul li.current-menu-item a:visited
+{
+    background-color: #006505;
+    color: #FFF;
+}
