@@ -1,4 +1,6 @@
 <?php
+
+get_header();
 // use the shell:
 
 exec('D:/"Program Files"/R-3.2.2/bin/x64/Rscript D:/Dev/wordpress/wp-content/themes/whatsappanalyser/my_rscript.R');
@@ -18,5 +20,6 @@ exec('D:/"Program Files"/R-3.2.2/bin/x64/Rscript D:/Dev/wordpress/wp-content/the
 //  if(is_file($file))
 //    unlink($file); 
 //}
+get_footer();
 
 ?>
